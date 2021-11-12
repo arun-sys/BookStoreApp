@@ -1,0 +1,49 @@
+.register-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid red;
+  padding: 103px 22px;
+  height: 100vh;
+}
+.login-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  border: 2px solid red;
+  padding: 90px 22px;
+  margin: 35px;
+  height: 85vh;
+}
+.form-group {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+  grid-row-gap: 5px;
+}
+label {
+  justify-self: start;
+}
+
+.form-control {
+  margin: 7px;
+  padding: 10px 100px;
+  border: 2px solid red;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.form-group-button {
+  margin: 19px;
+  padding: 13px 41px;
+  font-size: 1.5rem;
+  border: 2px solid red;
+  background-color: #e7e7e7;
+  color: black;
+}
+
+.error-msg {
+  color: red;
+  font-weight: bold;
+}

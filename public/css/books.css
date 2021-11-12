@@ -1,0 +1,82 @@
+.books-page-container {
+  font-size: 1rem;
+  border: 2px solid red;
+  box-sizing: border-box;
+  color: blue;
+  border-top-width: inherit;
+}
+
+.books-header {
+  display: grid;
+  grid-template-columns: 10% 50% 40%;
+  font-size: 1.75rem;
+  padding-top: 25px;
+}
+.books-header-text {
+  justify-self: center;
+  align-self: center;
+}
+
+.books-header-search {
+  justify-self: start;
+  align-self: center;
+  padding: 5px 5px;
+  border: 2px solid red;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.add-book-button {
+  justify-self: end;
+  align-self: center;
+  padding: 12px;
+}
+
+.books-container {
+  margin: 5px;
+  font-size: 1.75rem;
+  overflow-y: scroll;
+  height: 70vh;
+  margin-top: 0px;
+}
+.book-not-available {
+  color: red;
+}
+.books-list {
+  display: grid;
+  grid-template-columns: 95% 5%;
+  align-items: center;
+}
+.books-list-header {
+  display: grid;
+  margin: 3% 5%;
+  color: rgb(43, 9, 236);
+  border: 2px solid red;
+  grid-template-columns: 10% 15% 15% 11% 13% 11% 3% 3% 3%;
+  justify-content: space-evenly;
+}
+.books-list-header .value {
+  color: rgb(36, 235, 18);
+  text-transform: capitalize;
+}
+.books-list-image {
+  width: 65%;
+  justify-self: center;
+}
+.books-list-available-input {
+  border: 2px solid red;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.books-list-delete {
+  color: red;
+  padding: 7px;
+}
+
+.books-list-image,
+.books-list-available,
+.books-list-available-input,
+.books-list-plus,
+.books-list-minus {
+  align-self: center;
+}

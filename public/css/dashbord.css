@@ -1,0 +1,48 @@
+.dashboard {
+  border: 2px solid red;
+  font-size: 1.5rem;
+  color: blue;
+}
+
+.dashboard-header {
+  display: grid;
+  grid-template-columns: 46% 54%;
+}
+
+.dashboard-header-text {
+  justify-self: start;
+  font-size: 2rem;
+  font-weight: 700;
+  align-self: center;
+  padding-left: 40px;
+}
+
+.dashboard-header-logout-button {
+  /* border-radius: 10px; */
+  /* font-size: 2rem; */
+  border: 2px solid red;
+  justify-self: end;
+  /* padding: 5px; */
+  /* color: rgb(50, 205, 89); */
+
+  margin: 19px;
+  padding: 13px 41px;
+  font-size: 1.5rem;
+  background-color: #e7e7e7;
+  color: black;
+}
+
+.dashboard-routing {
+  display: grid;
+  grid-template-columns: 14% 86%;
+  border-top: 2px solid red;
+  background: cornsilk;
+}
+.dashboard-routing-child {
+  padding: 10px;
+  text-align: left;
+}
+
+.dashboard-routing-child:nth-child(even){
+  border-left: 2px solid red;
+}

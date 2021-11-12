@@ -1,0 +1,55 @@
+.orders-page-container {
+  font-size: 1rem;
+  border: 2px solid red;
+  min-height: 78vh;
+  box-sizing: border-box;
+  color: blue;
+  border-top-width: inherit;
+}
+
+.orders-page-header {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  font-size: 1.5rem;
+  padding: 22px;
+}
+.orders-total-text {
+  justify-self: start;
+  align-self: center;
+  font-weight: 700;
+}
+.orders-select-book {
+  justify-self: start;
+}
+
+.orders-select-book-option {
+  border: 2px solid red;
+  font-size: 1.5rem;
+}
+.orders-select-book-option option {
+  border: 2px solid red;
+  font-size: 1rem;
+  padding: 7px 75px;
+}
+
+.orders-page-table {
+  border: 2px solid red;
+  font-size: 1.5rem;
+  min-height: 100vh;
+}
+
+.orders-page-table {
+  color: blueviolet;
+  width: 89vw;
+  min-height: 34vh;
+  border-collapse: collapse;
+  border: 2px solid;
+  margin: 25px;
+}
+
+.orders-page-table tr,
+th,
+td {
+  border: 2px solid red;
+  padding: 5px;
+}
