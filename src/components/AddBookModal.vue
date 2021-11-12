@@ -15,13 +15,7 @@
         <section class="modal-body" id="modalDescription">
           <div class="modal-group">
             <label for="Title">Title</label>
-            <input
-              type="text"
-              v-model="book.title"
-              name="Title"
-              class="form-control"
-              required
-            />
+            <input type="text" v-model="book.title" name="Title" class="form-control" required />
           </div>
           <div class="modal-group">
             <label for="author-name">Author name</label>
@@ -45,13 +39,7 @@
           </div>
           <div class="modal-group">
             <label for="Price">Price</label>
-            <input
-              type="number"
-              v-model="book.price"
-              name="Price"
-              class="form-control"
-              required
-            />
+            <input type="number" v-model="book.price" name="Price" class="form-control" required />
           </div>
           <div class="modal-group">
             <label for="Image">Image</label>
@@ -82,8 +70,8 @@ export default {
         author: "",
         description: "",
         price: 0,
-        image: "book-reader-solid.svg",
-      },
+        image: "book-reader-solid.svg"
+      }
     };
   },
   methods: {
@@ -97,8 +85,9 @@ export default {
         author: this.book.author,
         description: this.book.description,
         price: this.book.price,
+        // for uploading images. Image  will be available in src\assets. other wise Gui will not show.
         image: this.book.image,
-        count: 1,
+        count: 1
       });
       this.$emit("close");
       this.emptyBookObject();
@@ -111,8 +100,10 @@ export default {
       this.book.image = "book-reader-solid.svg";
     },
     chooseImage(file) {
-      this.book.image = file[0].name;
-    },
-  },
+      if (file[0].name) {
+        this.book.image = file[0].name;
+      }
+    }
+  }
 };
 </script>

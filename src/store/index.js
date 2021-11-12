@@ -8,10 +8,10 @@ export default createStore({
       { id: 2, fullName: 'Arun', email: "arun@gmail.com", userName: 'arun', password: 'arun', loggedIn: false },],
 
     booksList: [
-      { author: "Jhon", title: "Tom", description: "bnhgm", price: 1000, image: "book-solid.svg", count: 1 },
-      { author: "Karthick", title: 'Apple', description: 'nvnbv', price: 2000, image: 'book-reader-solid.svg', count: 1 },
-      { author: "Kiran", title: 'About Jungle', description: 'nvnbv', price: 3000, image: 'book-solid.svg', count: 1 },
-      { author: "Arun", title: 'Home Tour', description: 'nvnbv', price: 1000, image: 'book-reader-solid.svg', count: 1 },],
+      { author: "Jhon", title: "Tom", description: "Tom story", price: 1000, image: "book-solid.svg", count: 1 },
+      { author: "Karthick", title: 'Apple', description: 'About fruit', price: 2000, image: 'book-reader-solid.svg', count: 1 },
+      { author: "Kiran", title: 'About Jungle', description: 'forest life', price: 3000, image: 'book-solid.svg', count: 1 },
+      { author: "Arun", title: 'Home Tour', description: 'village life', price: 1000, image: 'book-reader-solid.svg', count: 1 },],
 
     orders: [
       { orderId: 1, email: "aruncse@gmail.com", bookName: "Tom", date: new Date().toUTCString(), quantity: 3, amount: 3000 },
